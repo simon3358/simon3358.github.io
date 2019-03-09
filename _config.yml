@@ -2,6 +2,6 @@ name: Šimon Zaťko
 markdown: kramdown
 collections:
   projects:
-    output:true
+    output: true
     permalink: /projects/:path/
 

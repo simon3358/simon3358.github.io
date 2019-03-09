@@ -4,26 +4,32 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
 		</head>
 		<body>
+		<div class="container">
+
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
 					<li><a href="/skills">Skills</a></li>
-	        		<li><a href="/school">School</a></li>
+					<li><a href="/school">School</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
+
+			<div class="content">
+				{{ content }}
+			</div>
+
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:xzatko@stuba.sk">email</a></li>
 	        		<li><a href="https://github.com/simon3358">github.com/simon3358</a></li>
+					<li><a href="https://www.facebook.com/simon.zatko.3">facebook</a></li>
 				</ul>
 			</footer>
+
+		</div><!-- /.container -->
 		</body>
 	</html>
