@@ -6,3 +6,4 @@ collections:
     permalink: /projects/:path/
 gems:
   - jekyll-roman
+  
