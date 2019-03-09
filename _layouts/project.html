@@ -3,9 +3,11 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
-<p>{{page.subject}}</p>
-<p>{{page.teacher}}</p>
-<div class="post">
+<p>Creation date: <b>{{ page.date | date_to_string }}</b></p>
+<p>Subject: <b>{{page.subject}}</b></p>
+<p>Semester: <b>{{page.semester}}.</b></p>
+<p>Teacher: <b>{{page.teacher}}</b></p>
+<p>Programming language: <b>{{page.language}}</b></p>
+<div class="content">
   {{ content }}
 </div>

@@ -1,0 +1,10 @@
+---
+layout: project
+date: 25.3.2018
+title: 8 Brainteaser
+subject: Artificial Intelligence
+semester: 4
+language: Java
+teacher: Irina Malkin Ondik
+---
+Solve the 8 brainteaser with two-way breadth-first search.

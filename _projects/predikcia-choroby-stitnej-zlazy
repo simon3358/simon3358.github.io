@@ -1,9 +1,0 @@
----
-layout: project
-date: 20.11.2018
-title: Predikcia choroby štítnej žľazy
-subject: Inteligentná analýza údajov
-language: Python
-teacher: Jakub Ševcech
----
-Použitie strojového učenia na riešenie problému ochorenia štítnej žľazy.
