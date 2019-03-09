@@ -1,11 +1,11 @@
 body {
-    margin: 30px auto;
+    margin: 10px auto;
     width: 70%;
 
 }
 .container {
     background-color: #6dc8c4;
-    margin: 30px;
+    margin: 10px;
     padding: 30px;
     font: 1.2em Helvetica, arial, sans-serif;
     border: 2px solid #000;
