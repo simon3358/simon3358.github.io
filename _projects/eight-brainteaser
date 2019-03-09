@@ -7,4 +7,9 @@ semester: 4
 language: Java
 teacher: Irina Malkin Ondik
 ---
-Solve the 8 brainteaser with two-way breadth-first search.
+<div class="content">
+    Solve the 8 brainteaser with two-way breadth-first search.
+</div>
+
+<h3>Code example:</h3>
+<img src="/images/eight.png" alt="Eight brainteaser example">

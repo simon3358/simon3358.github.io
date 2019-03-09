@@ -7,4 +7,9 @@ semester: 5
 language: Python
 teacher: Jakub Ševcech
 ---
-Predict the thyroid disease using supervised machine learning with decision tree algorithms.
+<div class="content">
+    Predict the thyroid disease using supervised machine learning with decision tree algorithms.
+</div>
+
+<h3>Code example:</h3>
+<img src="/images/prediction.png" alt="Python code example">
