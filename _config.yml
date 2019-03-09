@@ -4,4 +4,5 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
+gems:
+  - jekyll-roman

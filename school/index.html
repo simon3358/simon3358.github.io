@@ -8,7 +8,7 @@ collection: projects
 		<div class="card">
 			<h2>{{project.title}}</h2>
 			<p>{{project.subject}}</p>
-			<p>{{project.semester}}. semester</p>
+			<p>{{project.semester | roman}}. semester</p>
 			<p>{{project.language}}</p>
 			<a href="{{ project.url }}" title="{{ project.title }}">Details...</a>
 		</div>
