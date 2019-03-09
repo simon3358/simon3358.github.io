@@ -22,7 +22,7 @@
 
 			<div class="content">
 				{{ content }}
-				<p></p><small>Estimated reading time: {{content | reading_time_as_i}}</small></p>
+				<p><small>Number of words:	{{ page.content | number_of_words }}</small></p>
 			</div>
 
 			<footer>
