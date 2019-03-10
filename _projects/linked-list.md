@@ -7,7 +7,7 @@ semester: 1
 language: C
 teacher: Anna Bou Ezzedine
 ---
-<div class="content">
+<div class="task">
     Creating simple one-way linked list with basic operations as add, find and delete element.
 </div>
 
