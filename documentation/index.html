@@ -4,9 +4,20 @@ title: Documentation
 ---
 <h1>{{ page.title }}</h1>
 <p>This site is project for web publishing.</p>
-<p>filters: number of words, date to long, </p>
-<p>tags: </p>
-<p>plugin: youtube</p>
+<p>I used 3 layouts: <b>default</b> - primary layout with header, footer and content place, <b>list</b> to show our
+    collection of projects and <b>project</b> for showing information about the project with code example.
+    You can click on the links or you can find them directly with urls
+    (for example ~{{ site.baseurl }}{% link _projects/AVL-tree.md %})</p>
+<p>This projects are created as <b>collection</b>. In jekyll I just created corresponding folder with my
+    projects in markdown and then listed them easily with the for cycle.</p>
+<p>Jekyll provides a number of useful Liquid additions as <b>filters</b>: number of words, date to long, to integer
+    and <b>tags</b>: highlight, baseurl.</p>
+<p>In my site is <b>youtube plugin</b> also used to showing videos directly here. I just had to add this lines in my
+    Gemfile and refresh the site:</p>
 
-
+{% highlight ruby %}
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+end
+{% endhighlight %}
 

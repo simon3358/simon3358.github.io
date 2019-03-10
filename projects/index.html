@@ -6,8 +6,8 @@ collection: projects
 
 	{% for project in site.projects %}
 		<div class="card">
-			<h2>{{project.title}}</h2>
-			<p>{{project.subject}} ({{project.semester}}. semester)</p>
+			<h2>{{project.title }}</h2>
+			<p>{{project.subject}} ({{project.semester | to_integer}}. semester)</p>
 			<p>{{project.language}}</p>
 			<a href="{{ project.url }}" title="{{ project.title }}">Details...</a>
 		</div>

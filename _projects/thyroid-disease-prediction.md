@@ -5,7 +5,7 @@ title: Thyroid disease prediction
 subject: Intelligent Data Analysis
 semester: 5
 language: Python
-teacher: Jakub Ševcech
+teacher: Ing. Jakub Ševcech, PhD.
 ---
 <div class="task">
     Predict the thyroid disease using supervised machine learning with decision tree algorithms.

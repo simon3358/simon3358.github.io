@@ -5,7 +5,7 @@ title: AVL Tree
 subject: Data structures and algorithms
 semester: 3
 language: C
-teacher: Jozef Tvarožek
+teacher: Mgr. Jozef Tvarožek, PhD.
 ---
 <div class="task">
     Creating balanced AVL tree with operations as balance tree, add, find and delete element.</p>

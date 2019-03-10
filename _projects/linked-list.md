@@ -5,7 +5,7 @@ title: Linked list
 subject: Procedural programming
 semester: 1
 language: C
-teacher: Anna Bou Ezzedine
+teacher: RNDr. Anna Bou Ezzeddine, PhD.
 ---
 <div class="task">
     Creating simple one-way linked list with basic operations as add, find and delete element.

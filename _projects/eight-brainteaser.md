@@ -5,7 +5,7 @@ title: 8 brainteaser
 subject: Artificial Intelligence
 semester: 4
 language: Java
-teacher: Irina Malkin Ondik
+teacher: Mgr. Irina Malkin Ondik, PhD.
 ---
 <div class="task">
     Solve the 8 brainteaser with two-way breadth-first search.
