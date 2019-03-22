@@ -3,6 +3,8 @@ layout: default
 title: Documentation
 ---
 <h1>{{ page.title }}</h1>
+
+<h2>Assignment 1</h2>
 <p>This site is project for web publishing. It is created as static website using jekyll. The site is written
 in HTML, enhanced with jekyll additions. The look of the page is created with CSS.</p>
 <p>I used 3 layouts: <b>default</b> - primary layout with header, footer and content place, <b>list</b> to show our
@@ -24,4 +26,24 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
 end
 {% endhighlight %}
+
+<h2>Assignment 2</h2>
+<p>In the second assignment my task was convert my bachelor's thesis into DocBook.</p>
+<p>Here I changed Latex tags into DocBook elements, for example in <b>title site</b>: title, subtitle,
+    author, othername(name of my supervisor) and pubdate. Then I created <b>abstracts</b> in two languages with elements abstract,
+    which contains title and para elements, where is text written. Similarly I made <b>content</b> of the document
+    with elements chapter, sections and para.</p>
+<p>
+    This DocBook contains automatic generated <b>table of content, figures and tables</b> in the begin of document.
+    They also reference to specific sites in the document. In the text are also used <b>links</b> to titles of some chapters,
+    created with elements xref.
+</p>
+<p>
+    In the end of the document is <b>appendix</b> and <b>keywords</b> - index of the most important terms. Last part of the
+    document contains <b>bibliography</b>, which is cited in the text.
+</p>
+<p>
+    DocBook has also own <b>XSL file</b>, where is style of the document defined. Here I changed a few attributes,
+    to get more beautiful appearance of my document.
+</p>
 
